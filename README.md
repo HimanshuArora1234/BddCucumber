@@ -3,7 +3,7 @@ A small java project to work with behaviour driven development using Cucumber. I
 
 ## Tech env
     - Java8
-    - BDD
+    - BDD (behaviour driven development)
     - Junit
     - Cucumber
     - Gherkin
@@ -21,3 +21,6 @@ To run the scenarios defined in `UserRepository.feature` just run the class `Run
 **HTML output report**
 
 [Web report](/target/cucumber/user.html/index.html) 
+
+
+![Web](WebOutput.JPG) 
