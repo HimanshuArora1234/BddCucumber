@@ -1,0 +1,556 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;create",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135828968,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Repository contains N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_N_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52399693,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I created one user",
+            "match": {
+              "location": "StepDefinitions.i_created_one_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2411111,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get the ID of the user and repository contains more than N users",
+            "match": {
+              "location": "StepDefinitions.i_get_the_ID_of_the_user_and_repository_contains_more_than_N_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Read",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;read;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44351,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Repository contains N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_N_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5914516,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I extract the user of ID 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.i_extract_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2248733,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get the user of ID 1 containing the data James, 55, j@startrek.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "James",
+                  "offset": 43
+                },
+                {
+                  "val": "55",
+                  "offset": 50
+                },
+                {
+                  "val": "j@startrek.com",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinitions.i_get_the_user_of_ID_containing_the_data(int,String,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Read",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;read;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42518,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Repository contains N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_N_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92735,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I extract the user of ID 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.i_extract_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114361,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get the user of ID 2 containing the data Luke, 60, lu@starwars.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                },
+                {
+                  "val": "Luke",
+                  "offset": 43
+                },
+                {
+                  "val": "60",
+                  "offset": 49
+                },
+                {
+                  "val": "lu@starwars.com",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinitions.i_get_the_user_of_ID_containing_the_data(int,String,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Read",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;read;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53881,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Repository contains N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_N_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96767,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I extract the user of ID 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.i_extract_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139286,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get the user of ID 3 containing the data Leia, 70, le@starwars.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                },
+                {
+                  "val": "Leia",
+                  "offset": 43
+                },
+                {
+                  "val": "70",
+                  "offset": 49
+                },
+                {
+                  "val": "le@starwars.com",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinitions.i_get_the_user_of_ID_containing_the_data(int,String,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Update",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;update;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15904608,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Repository contains the following users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_the_following_users(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "name",
+                  "age",
+                  "email"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "3",
+                  "Leia",
+                  "70",
+                  "le@starwars.com"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134521,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I update the age and email of user of id 3 by data 20, leia@starwars.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 41
+                },
+                {
+                  "val": "20",
+                  "offset": 51
+                },
+                {
+                  "val": "leia@starwars.com",
+                  "offset": 55
+                }
+              ],
+              "location": "StepDefinitions.i_update_the_age_and_email_of_user_of_id_by_data(int,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130855,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I get the user of ID 3 containing the data Leia, 20, leia@starwars.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                },
+                {
+                  "val": "Leia",
+                  "offset": 43
+                },
+                {
+                  "val": "20",
+                  "offset": 49
+                },
+                {
+                  "val": "leia@starwars.com",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinitions.i_get_the_user_of_ID_containing_the_data(int,String,int,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Delete",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;delete;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53515,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Repository contains N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_N_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111429,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I extract the user of ID 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.i_extract_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 456711,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I delete the user of ID 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitions.i_delete_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35188,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Repository contains less than N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_less_than_N_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Delete",
+        "description": "",
+        "id": "user-create,-read,-update-and-delete-(crud)-features;delete;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58647,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Repository contains N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_N_users()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101165,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I extract the user of ID 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.i_extract_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121325,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I delete the user of ID 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitions.i_delete_the_user_of_ID(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26025,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Repository contains less than N users",
+            "match": {
+              "location": "StepDefinitions.repository_contains_less_than_N_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Create, read, update and delete (CRUD) features",
+    "description": "",
+    "id": "user-create,-read,-update-and-delete-(crud)-features",
+    "keyword": "Feature",
+    "uri": "fr/him/bdd/UserRepository.feature"
+  }
+]
